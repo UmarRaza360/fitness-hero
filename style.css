@@ -56,6 +56,11 @@ a:hover{
     color: #25AB75;
     border: 1px solid white;
 }
+@media screen and (max-width:720px) {
+    .btn{
+        margin-left: -100px;
+    }
+}
 .mainBack{
     /* border: 1px solid white; */
     width: 100%;
@@ -72,6 +77,21 @@ a:hover{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+@media screen and (max-width:720px) {
+    .mainBack1{
+        flex-wrap: wrap-reverse;
+        margin-top: 1200px;
+        background-color: rgb(26, 25, 25);
+    }
+    .chld2{
+        background-color: rgb(26, 25, 25);
+        height: 100px;
+        width: 600px;
+    }
+    .chld1{
+        margin-top: -00px;
+    }
 }
 .chld1{
     /* border: 1px solid #25AB75; */
